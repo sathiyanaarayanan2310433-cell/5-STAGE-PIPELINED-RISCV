@@ -15,11 +15,6 @@ The processor is divided into the following five pipeline stages:
 - **WB** – Write Back
 
 ### Pipeline Architecture
-
-```text
-        ┌─────┐    ┌─────┐    ┌─────┐    ┌─────┐    ┌─────┐
-        │  IF │ →  │  ID │ →  │ EX  │ →  │ MEM │ →  │ WB  │
-        └─────┘    └─────┘    └─────┘    └─────┘    └─────┘
 Features
 - RV32I-based RISC-V processor
 - Five-stage instruction pipeline
